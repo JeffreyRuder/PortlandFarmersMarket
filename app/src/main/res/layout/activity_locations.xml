@@ -13,6 +13,7 @@ tools:openDrawer="start">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:orientation="vertical"
         android:paddingBottom="@dimen/activity_vertical_margin"
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
@@ -23,24 +24,30 @@ tools:openDrawer="start">
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Portland State University"
-            android:textColor="@color/colorAccent"/>
+            android:textColor="@color/colorAccent"
+            android:textSize="22sp"
+            android:layout_marginTop="50dp" />
 
         <com.example.guest.portlandfarmersmarket.OpenSansTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SW Park &amp; SW Montgomery\nOpen Year Round"
+            android:textSize="18sp"
+            android:text="SW Park &amp; SW Montgomery\nOpen Saturdays Year Round"
             android:textColor="@color/colorPrimary"/>
 
         <com.example.guest.portlandfarmersmarket.OpenSansBoldTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Pioneer Courthouse Square"
-            android:textColor="@color/colorAccent"/>
+            android:textColor="@color/colorAccent"
+            android:textSize="22sp"
+            android:layout_marginTop="15dp" />
 
         <com.example.guest.portlandfarmersmarket.OpenSansTextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="SW 6th &amp; SW Yamhill\nMondays June 20th to September 26th"
+            android:textSize="18sp"
+            android:text="SW 6th &amp; SW Yamhill\nOpen Mondays June 20th to September 26th"
             android:textColor="@color/colorPrimary"/>
 
     </LinearLayout>

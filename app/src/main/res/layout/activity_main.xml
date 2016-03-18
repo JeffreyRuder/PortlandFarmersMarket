@@ -12,8 +12,43 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:contentDescription="Lettuce Field"
-        android:alpha="0.6"
+        android:alpha="0.4"
         android:id="@+id/background_field"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.guest.portlandfarmersmarket.OpenSansBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorAccent"
+            android:text="What\'s Fresh"
+            android:textSize="30sp"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/main_lead"/>
+
+        <com.example.guest.portlandfarmersmarket.OpenSansBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="Asparagus"
+            android:textSize="18sp"
+            android:id="@+id/firstVeg"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/main_lead"/>
+
+        <com.example.guest.portlandfarmersmarket.OpenSansBoldTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/colorPrimary"
+            android:text="Arugula"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/firstVeg"/>
+
+    </RelativeLayout>
 
     <include
         layout="@layout/app_bar_no_floater"

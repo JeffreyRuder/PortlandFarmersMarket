@@ -8,16 +8,16 @@
             android:title="About Us" />
         <item
             android:id="@+id/nav_market_map"
-            android:icon="@drawable/ic_explore_black_24dp"
+            android:icon="@android:drawable/ic_dialog_map"
             android:title="Portland State Market Map" />
 
         <item
             android:id="@+id/nav_pcs_map"
-            android:icon="@drawable/ic_explore_black_24dp"
+            android:icon="@android:drawable/ic_dialog_map"
             android:title="Pioneer Square Market Map" />
         <item
             android:id="@+id/nav_locations"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@drawable/ic_explore_black_24dp"
             android:title="Market Locations" />
     </group>
 

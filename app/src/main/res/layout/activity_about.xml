@@ -55,6 +55,23 @@
                     android:textColor="@color/colorPrimary"
                     android:text="@string/mission"/>
 
+                <com.example.guest.portlandfarmersmarket.OpenSansBoldTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Our Strategy"
+                    android:textSize="30sp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:id="@+id/strategy_title"/>
+
+                <com.example.guest.portlandfarmersmarket.OpenSansTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18sp"
+                    android:textColor="@color/colorPrimary"
+                    android:text="@string/strategy"/>
+
             </LinearLayout>
 
         </ScrollView>

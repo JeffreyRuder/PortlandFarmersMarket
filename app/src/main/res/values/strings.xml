@@ -5,10 +5,11 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Portland Farmers Market</string>
-    <string name="PSU_hours">Mar-Oct 8:30-2p | Nov-Feb: 9-2p\n
+    <string name="PSU_hours">Mar-Oct: 8:30 - 2:00 | Nov-Feb: 9:00 - 2:00\n
         Open Saturdays Year-Round</string>
-    <string name="PCS_hours">Mar-Oct 8:30-2p | Nov-Feb: 9-2p\n
-        Open Saturdays Year-Round</string>
+    <string name="PCS_hours">10:00 - 2:00\n
+        Open Mondays June 20th to September 26th</string>
     <string name="mission">PFM operates world-class farmers markets that contribute to the success of local food growers and producers, and create vibrant community gatherings. As a trade association, success for our vendors is our primary objective. Listening and learning from vendors and shoppers produces outstanding farmers markets where vendors prosper and communities thrive.</string>
     <string name="about_head">Portland Farmers Market is a nonprofit organization operating seven vibrant farmers markets in Portland, OR. Our markets provide a direct connection to more than 200 vendors with deep roots in Oregon and Southwest Washington, including farms, nurseries, bakeries, meat and seafood providers, cheese makers and specialty food producers.</string>
+    <string name="strategy">It all starts with a strong foundation. PFM is a sustainable organization that invests in its vendors, employees and volunteers. This strong base allows us to lead growth in the local food system. For our vendors we are a marketing organization that attracts shoppers to marketplaces where vendors can prosper and we are committed to providing business accelerations opportunities such as expanded marketplaces, educational workshops and a diversified shopper base.</string>
 </resources>
